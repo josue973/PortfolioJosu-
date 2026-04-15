@@ -1,0 +1,111 @@
+hoot {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 1rem 5%;
+  background: #eee;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;   /* remove os pontos */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* coloca os itens lado a lado */
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  padding: 60px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#sobre img {
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid var (--white);
+}
+
+#projetos {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#projetos h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+#projetos article {
+  flex: 1 1 300px;       
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+}
+
+#projetos article:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#projetos h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+#projetos p {
+  color: #555;
+  line-height: 1.4;
+}
+
+#projetos a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+#projetos a:hover {
+  text-decoration: underline;
+}
+ footer {
+  background: #222;   
+  color: #fff;        
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
